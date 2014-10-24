@@ -27,6 +27,10 @@ class CRM
     display.display_all_contacts
   end
 
+  def display_an_attribute
+    display = DisplayAttributes.new(@rolodex.contacts)
+    display.handle_operations
+  end
 
   def handle_operations
     exit_requested = FALSE
@@ -44,7 +48,7 @@ class CRM
         when :display_all_contacts
           display_all_contacts
         when :display_an_attribute
-          raise 'Not Implemented'
+          display_an_attribute
         when :exit
           exit_requested = TRUE
         else
@@ -54,6 +58,6 @@ class CRM
   end
 end
 
-=begin instance = CRM.new
+instance = CRM.new
 instance.handle_operations
-=end
+

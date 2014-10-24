@@ -10,7 +10,7 @@ RSpec.configure do |config|
 end
 
 describe 'Display Classes' do
-  context 'Testing Display Attributes' do
+  context 'Testing Display Contacts by List' do
     before :each do
       @contacts = []
       contacts_to_add = [
@@ -39,21 +39,22 @@ describe 'Display Classes' do
       @display = DisplayAttributes.new(@contacts)
     end
 
-    it 'Returns' do
-      @display.ask_for_attribute
-    end
-
-    it 'Handles Input 1' do
-      @display.stub(:gets).and_return('1')
-      expect(@display.ask_for_attribute).to eq :@first_name
-    end
-
     it 'Lists Objects Properly' do
       STDOUT.should_receive(:puts).with('Rich')
       STDOUT.should_receive(:puts).with('Matt')
       STDOUT.should_receive(:puts).with('Dan')
       STDOUT.should_receive(:puts).with('Press Enter to Continue')
       expect(@display.display_all_contacts_by_attribute(:@first_name)).to be_truthy
+    end
+  end
+  context 'Testing Ask For Attribute' do
+    before :each do
+      @Class = Class.new
+      @Class.include(AttributeDisplay)
+      @object = @Class.new
+    end
+    it 'Returns' do
+      @object.ask_for_attribute('123456')
     end
   end
 end

@@ -7,25 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f6ebd-a087-4b59-a4c9-3dcc2202bced" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/add_contact_display.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/add_contact_display_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/bitmaker-lesson5.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/clearscreen.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/contact.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/contact_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/displays.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/displays_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/main_menu.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation/main_menu_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/rolodex.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/rolodex_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/displays.rb" afterPath="$PROJECT_DIR$/presentation/displays.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/displays_spec.rb" afterPath="$PROJECT_DIR$/presentation/displays_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.rb" afterPath="$PROJECT_DIR$/main.rb" />
     </list>
     <ignored path="bitmaker-lesson5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +23,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Run_spec__rolodex_spec___bitmaker_lesson5.coverage" NAME="Run spec 'rolodex_spec': bitmaker-lesson5 Coverage Results" MODIFIED="1414176363912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Contacts_Should_have_the_correct_email__bitmaker_lesson5.coverage" NAME="Contacts Should have the correct email: bitmaker-lesson5 Coverage Results" MODIFIED="1414174856098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" MODULE_NAME="bitmaker-lesson5" />
-    <SUITE FILE_PATH="coverage/bitmaker-lesson5@main.coverage" NAME="main Coverage Results" MODIFIED="1414179584793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bitmaker-lesson5" />
+    <SUITE FILE_PATH="coverage/bitmaker-lesson5@main.coverage" NAME="main Coverage Results" MODIFIED="1414184503758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Add_Contact_Display_Should_Return_Nil_if_user_Types_NO__bitmaker_lesson5.coverage" NAME="Add Contact Display Should Return Nil if user Types NO: bitmaker-lesson5 Coverage Results" MODIFIED="1414178099325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Run_spec__add_contact_display_spec___bitmaker_lesson5.coverage" NAME="Run spec 'add_contact_display_spec': bitmaker-lesson5 Coverage Results" MODIFIED="1414178102236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@add_contact_display.coverage" NAME="add_contact_display Coverage Results" MODIFIED="1414179000887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
@@ -54,7 +38,7 @@
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Display_Classes__bitmaker_lesson5.coverage" NAME="Display Classes: bitmaker-lesson5 Coverage Results" MODIFIED="1414181325339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Rolodex_Behaviour__bitmaker_lesson5.coverage" NAME="Rolodex Behaviour: bitmaker-lesson5 Coverage Results" MODIFIED="1414176299099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Add_Contact_Display__bitmaker_lesson5.coverage" NAME="Add Contact Display: bitmaker-lesson5 Coverage Results" MODIFIED="1414177578192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
-    <SUITE FILE_PATH="coverage/bitmaker-lesson5@Run_spec__displays_spec___bitmaker_lesson5.coverage" NAME="Run spec 'displays_spec': bitmaker-lesson5 Coverage Results" MODIFIED="1414182278698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
+    <SUITE FILE_PATH="coverage/bitmaker-lesson5@Run_spec__displays_spec___bitmaker_lesson5.coverage" NAME="Run spec 'displays_spec': bitmaker-lesson5 Coverage Results" MODIFIED="1414184371755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Rolodex_Behaviour_Searching_Should_Not_Return_a_Result__bitmaker_lesson5.coverage" NAME="Rolodex Behaviour Searching Should Not Return a Result: bitmaker-lesson5 Coverage Results" MODIFIED="1414176361007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@CRM_Operations__bitmaker_lesson5.coverage" NAME="CRM Operations: bitmaker-lesson5 Coverage Results" MODIFIED="1414166317287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bitmaker-lesson5" />
   </component>
@@ -75,8 +59,8 @@
           <file leaf-file-name="main.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
-                  <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+                  <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -85,8 +69,8 @@
           <file leaf-file-name="displays.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/presentation/displays.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.72490704" vertical-offset="0" max-vertical-offset="930">
-                  <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+                <state vertical-scroll-proportion="1.5241636" vertical-offset="0" max-vertical-offset="1455">
+                  <caret line="82" column="2" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -149,8 +133,8 @@
           <file leaf-file-name="displays_spec.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/presentation/displays_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6282528" vertical-offset="168" max-vertical-offset="975">
-                  <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+                <state vertical-scroll-proportion="0.669145" vertical-offset="180" max-vertical-offset="990">
+                  <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -197,9 +181,9 @@
         <option value="$PROJECT_DIR$/presentation/add_contact_display.rb" />
         <option value="$PROJECT_DIR$/main_spec.rb" />
         <option value="$PROJECT_DIR$/displays.rb" />
+        <option value="$PROJECT_DIR$/presentation/displays_spec.rb" />
         <option value="$PROJECT_DIR$/main.rb" />
         <option value="$PROJECT_DIR$/presentation/displays.rb" />
-        <option value="$PROJECT_DIR$/presentation/displays_spec.rb" />
       </list>
     </option>
   </component>
@@ -300,7 +284,7 @@
       <recent name="$PROJECT_DIR$/models" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'displays_spec': bitmaker-lesson5">
+  <component name="RunManager" selected="Ruby.main">
     <configuration default="false" name="Run spec 'main_spec': bitmaker-lesson5" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="bitmaker-lesson5" />
@@ -559,11 +543,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'displays_spec': bitmaker-lesson5" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Display Classes: bitmaker-lesson5" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'main_spec': bitmaker-lesson5" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.CRM Operations Creating a New Contact Adds a New Contact: bitmaker-lesson5" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.main" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.main" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'displays_spec': bitmaker-lesson5" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Display Classes: bitmaker-lesson5" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'main_spec': bitmaker-lesson5" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.CRM Operations Creating a New Contact Adds a New Contact: bitmaker-lesson5" />
       </list>
     </recent_temporary>
   </component>
@@ -659,14 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation/add_contact_display.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/rolodex.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42091838" vertical-offset="0" max-vertical-offset="784">
@@ -707,14 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/contact.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53571427" vertical-offset="0" max-vertical-offset="784">
@@ -739,18 +707,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/add_contact_display.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs21/object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7236679" vertical-offset="2356" max-vertical-offset="14595">
+          <caret line="196" column="8" selection-start-line="196" selection-start-column="8" selection-end-line="196" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/presentation/displays_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6282528" vertical-offset="168" max-vertical-offset="975">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.669145" vertical-offset="180" max-vertical-offset="990">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/presentation/displays.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72490704" vertical-offset="0" max-vertical-offset="930">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state vertical-scroll-proportion="1.5241636" vertical-offset="0" max-vertical-offset="1455">
+          <caret line="82" column="2" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
           <folding />
         </state>
       </provider>
