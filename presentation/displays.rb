@@ -10,7 +10,7 @@ module AttributeDisplay
     print "Enter Selection:"
     result = gets.chomp
     case
-      when result.to_i.between?(1,variables.count)
+      when result.to_i.between?(1, variables.count)
         return variables[result.to_i - 1]
       when result == "quit"
         return :quit
@@ -22,14 +22,15 @@ end
 
 module ListAllContacts
   def list_all_contacts(contacts)
-    contacts.each_with_index { |contact,index| puts "#{index+1} #{contact.describe}" }
+    contacts.each_with_index { |contact, index| puts "#{index+1} #{contact.describe}" }
     puts ''
-    end
   end
+end
 
 class AllContactDisplay
   include AttributeDisplay
   include ListAllContacts
+
   def display_all_contacts
     list_all_contacts(@contacts)
     puts 'Press ENTER to Continue:'
@@ -70,6 +71,7 @@ end
 class ModifyAttributes
   include AttributeDisplay
   include CLEARSCREEN
+
   def initialize(contact)
     @contact = contact
   end
@@ -100,5 +102,39 @@ class ModifyAttributes
     end
     return nil if result == :quit
     {attribute => result}
+  end
+end
+
+class DisplaySpecificContact
+  include ListAllContacts
+
+  def initialize(contacts)
+    @contacts = contacts
+  end
+
+  def choose_contact
+    list_all_contacts(@contacts)
+    print 'Enter Contact Number'
+    choice = gets.chomp
+    if choice.to_i.between?(1, @contacts.count)
+      return @contacts[choice.to_i - 1]
+    elsif choice == 'NO'
+      return :quit
+    else
+      return nil
+    end
+  end
+
+  def display_contact(contact)
+    puts contact.describe
+  end
+
+  def handle_operations
+    contact_selected = nil
+    until contact_selected
+      contact_selected = choose_contact
+    end
+    return nil if contact_selected == :quit
+    display_contact(contact_selected)
   end
 end

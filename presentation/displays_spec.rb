@@ -97,5 +97,16 @@ describe 'Display Classes' do
       expect(@object.handle_operations).to be_nil
     end
   end
+  context 'Display Specific Contact' do
+    before :each do
+      @object = DisplaySpecificContact.new(@contacts)
+    end
+    it 'Lists all Objects at First' do
+      @object.stub(:gets).and_return('1')
+      @object.handle_operations
+    end
+
+
+  end
 
 end
