@@ -9,7 +9,6 @@
     <list default="true" id="2f3f6ebd-a087-4b59-a4c9-3dcc2202bced" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/displays.rb" afterPath="$PROJECT_DIR$/presentation/displays.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/displays_spec.rb" afterPath="$PROJECT_DIR$/presentation/displays_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.rb" afterPath="$PROJECT_DIR$/main.rb" />
     </list>
     <ignored path="bitmaker-lesson5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Display_Classes__bitmaker_lesson5.coverage" NAME="Display Classes: bitmaker-lesson5 Coverage Results" MODIFIED="1414181325339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Rolodex_Behaviour__bitmaker_lesson5.coverage" NAME="Rolodex Behaviour: bitmaker-lesson5 Coverage Results" MODIFIED="1414176299099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Add_Contact_Display__bitmaker_lesson5.coverage" NAME="Add Contact Display: bitmaker-lesson5 Coverage Results" MODIFIED="1414177578192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
-    <SUITE FILE_PATH="coverage/bitmaker-lesson5@Run_spec__displays_spec___bitmaker_lesson5.coverage" NAME="Run spec 'displays_spec': bitmaker-lesson5 Coverage Results" MODIFIED="1414184371755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
+    <SUITE FILE_PATH="coverage/bitmaker-lesson5@Run_spec__displays_spec___bitmaker_lesson5.coverage" NAME="Run spec 'displays_spec': bitmaker-lesson5 Coverage Results" MODIFIED="1414185949562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@Rolodex_Behaviour_Searching_Should_Not_Return_a_Result__bitmaker_lesson5.coverage" NAME="Rolodex Behaviour Searching Should Not Return a Result: bitmaker-lesson5 Coverage Results" MODIFIED="1414176361007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" MODULE_NAME="bitmaker-lesson5" />
     <SUITE FILE_PATH="coverage/bitmaker-lesson5@CRM_Operations__bitmaker_lesson5.coverage" NAME="CRM Operations: bitmaker-lesson5 Coverage Results" MODIFIED="1414166317287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bitmaker-lesson5" />
   </component>
@@ -59,18 +58,18 @@
           <file leaf-file-name="main.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-                  <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1065">
+                  <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="displays.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="displays.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/presentation/displays.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.5241636" vertical-offset="0" max-vertical-offset="1455">
-                  <caret line="82" column="2" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
+                <state vertical-scroll-proportion="0.2788104" vertical-offset="0" max-vertical-offset="1635">
+                  <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -130,11 +129,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="displays_spec.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="displays_spec.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/presentation/displays_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.669145" vertical-offset="180" max-vertical-offset="990">
-                  <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.72490704" vertical-offset="90" max-vertical-offset="1545">
+                  <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -143,8 +142,8 @@
           <file leaf-file-name="rolodex_spec.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/models/rolodex_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="930">
+                  <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -181,9 +180,9 @@
         <option value="$PROJECT_DIR$/presentation/add_contact_display.rb" />
         <option value="$PROJECT_DIR$/main_spec.rb" />
         <option value="$PROJECT_DIR$/displays.rb" />
-        <option value="$PROJECT_DIR$/presentation/displays_spec.rb" />
         <option value="$PROJECT_DIR$/main.rb" />
         <option value="$PROJECT_DIR$/presentation/displays.rb" />
+        <option value="$PROJECT_DIR$/presentation/displays_spec.rb" />
       </list>
     </option>
   </component>
@@ -284,7 +283,7 @@
       <recent name="$PROJECT_DIR$/models" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.main">
+  <component name="RunManager" selected="RSpec.Run spec 'displays_spec': bitmaker-lesson5">
     <configuration default="false" name="Run spec 'main_spec': bitmaker-lesson5" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="bitmaker-lesson5" />
@@ -543,8 +542,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.main" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'displays_spec': bitmaker-lesson5" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'displays_spec': bitmaker-lesson5" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.main" />
         <item index="2" class="java.lang.String" itemvalue="RSpec.Display Classes: bitmaker-lesson5" />
         <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'main_spec': bitmaker-lesson5" />
         <item index="4" class="java.lang.String" itemvalue="RSpec.CRM Operations Creating a New Contact Adds a New Contact: bitmaker-lesson5" />
@@ -578,7 +577,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24983345" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1996805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27768165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27768165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399384" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -691,22 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/rolodex_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentation/main_menu_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/presentation/add_contact_display.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
@@ -723,26 +706,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation/displays_spec.rb">
+    <entry file="file://$PROJECT_DIR$/models/rolodex_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.669145" vertical-offset="180" max-vertical-offset="990">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="930">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/main_menu_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1065">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/presentation/displays.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5241636" vertical-offset="0" max-vertical-offset="1455">
-          <caret line="82" column="2" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.2788104" vertical-offset="0" max-vertical-offset="1635">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/displays_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72490704" vertical-offset="90" max-vertical-offset="1545">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
           <folding />
         </state>
       </provider>

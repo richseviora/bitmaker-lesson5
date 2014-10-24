@@ -10,11 +10,10 @@ RSpec.configure do |config|
 end
 
 describe 'Display Classes' do
-  context 'Testing Display Contacts by List' do
-    before :each do
-      @contacts = []
-      contacts_to_add = [
-          {first_name: 'Rich', \
+  before :each do
+    @contacts = []
+    contacts_to_add = [
+        {first_name: 'Rich', \
          last_name: 'Seviora', \
          id: '623292', \
          email: 'richard.seviora@gmail.com', \
@@ -29,13 +28,28 @@ describe 'Display Classes' do
        id: '123456', \
        email: 'dan@gmail.com', \
        notes: 'Irish.'}
-      ]
-      contacts_to_add.each do |contact_to_add|
-        new_contact = Contact.new(contact_to_add[:first_name], \
+    ]
+    contacts_to_add.each do |contact_to_add|
+      new_contact = Contact.new(contact_to_add[:first_name], \
         contact_to_add[:last_name], contact_to_add[:id], \
         contact_to_add[:email], contact_to_add[:notes])
-        @contacts << new_contact
-      end
+      @contacts << new_contact
+    end
+  end
+  context 'Testing Display All Contacts' do
+    before :each do
+      @Class = Class.new
+      @Class.include(ListAllContacts)
+      @object = @Class.new
+    end
+    it 'Lists All Objects' do
+      @object.list_all_contacts(@contacts)
+    end
+
+  end
+  context 'Testing Display Contacts by Attribute' do
+    before :each do
+
       @display = DisplayAttributes.new(@contacts)
     end
 
@@ -57,4 +71,27 @@ describe 'Display Classes' do
       @object.ask_for_attribute('123456')
     end
   end
+
+  context 'Modify Attributes' do
+    before :each do
+      @object = ModifyAttributes.new(nil)
+    end
+    it 'Returns the Key Value Pair' do
+      @object.stub(:ask_for_attribute).and_return(:@first_name)
+      @object.stub(:get_and_validate_input).and_return("Rich")
+      expect(@object.handle_operations).to eq ({:@first_name => "Rich"})
+    end
+    it 'Returns Nil if Instructed to Quit' do
+      @object.stub(:ask_for_attribute).and_return(:quit)
+      @object.stub(:get_and_validate_input).and_return("Rich")
+      expect(@object.handle_operations).to be_nil
+    end
+
+    it 'Returns Nil if Instructed to Quit' do
+      @object.stub(:ask_for_attribute).and_return(:name)
+      @object.stub(:get_and_validate_input).and_return(:quit)
+      expect(@object.handle_operations).to be_nil
+    end
+  end
+
 end

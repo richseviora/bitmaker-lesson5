@@ -20,11 +20,18 @@ module AttributeDisplay
   end
 end
 
+module ListAllContacts
+  def list_all_contacts(contacts)
+    contacts.each_with_index { |contact,index| puts "#{index+1} #{contact.describe}" }
+    puts ''
+    end
+  end
+
 class AllContactDisplay
   include AttributeDisplay
+  include ListAllContacts
   def display_all_contacts
-    contacts.each { |contact| puts contact.describe }
-    puts ''
+    list_all_contacts(@contacts)
     puts 'Press ENTER to Continue:'
     gets.chomp
   end
@@ -80,13 +87,18 @@ class ModifyAttributes
       result
     end
   end
-  
+
   def handle_operations
     attribute = nil
     until attribute
       attribute = ask_for_attribute(@contact)
     end
+    return nil if attribute == :quit
+    result = nil
+    until result
+      result = get_and_validate_input(attribute)
+    end
     return nil if result == :quit
-
+    {attribute => result}
   end
 end
