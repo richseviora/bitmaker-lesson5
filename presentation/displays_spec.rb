@@ -43,6 +43,10 @@ describe 'Display Classes' do
       @object = @Class.new
     end
     it 'Lists All Objects' do
+      @contacts.each_with_index do |contact, index|
+        STDOUT.should_receive(:puts).with("#{index+1} #{contact.describe}")
+      end
+      STDOUT.should_receive(:puts).with('')
       @object.list_all_contacts(@contacts)
     end
 
