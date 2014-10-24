@@ -7,6 +7,7 @@ require_relative 'models/contact'
 
 class CRM
   attr_accessor :main_menu, :rolodex
+
   def initialize
     @main_menu = MainMenu.new
     @rolodex = Rolodex.new
@@ -16,7 +17,7 @@ class CRM
     display = AddContactDisplay.new
     new_contact_results = display.ask_for_new_values
     if new_contact_results
-      new_contact = Contact.new(new_contact_results[:first_name],new_contact_results[:last_name],new_contact_results[:id],new_contact_results[:email],new_contact_results[:notes])
+      new_contact = Contact.new(new_contact_results[:first_name], new_contact_results[:last_name], new_contact_results[:id], new_contact_results[:email], new_contact_results[:notes])
       @rolodex.add_contact(new_contact)
       puts "New Contact Added #{@rolodex.contacts.count}"
     end
